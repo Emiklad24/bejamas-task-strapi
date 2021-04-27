@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "price_ranges",
+  "info": {
+    "name": "price-range"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "maximumPrice": {
+      "type": "decimal"
+    },
+    "minimumPrice": {
+      "type": "decimal"
+    }
+  }
+}
